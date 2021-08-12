@@ -1,0 +1,209 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+header{
+  text-align: center;
+}
+
+
+main{
+margin: 2em;
+text-align: center;
+}
+
+body {
+ background-color: #EFE9F4; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-family: Bungee Shade;
+  color: black;
+  font-size: 75px;
+  background-color: #EFE9F4;
+  padding: 30px;
+  opacity: 90%;
+}
+
+h3 {
+  font-family: Bowlby One SC;
+  font-weight: 75;
+  font-size: 30px;
+}
+
+p{
+  font-family: Cairo;
+  margin: 1em;
+}
+
+.quoteText{
+  font-style: italic;
+  font-size: 17px;
+  color: #38369A;
+}
+
+.italics{
+  font-style: italic;
+}
+
+.organization{
+  display: flex;
+  flex-direction: column;
+  color: #EFE9F4;
+  margin: 2em;
+  padding: 1em;
+  background-color: #6A68CA;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+/* STYLE IMAGES */
+.logo img{
+  max-height: 10em;
+  max-width: 100%;
+  padding: 1em;
+  border-style:solid;
+  border-color: #38369A;
+}
+
+/*style the header text and images*/
+
+#header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background: url(https://live.staticflickr.com/38/87568944_5f212d7d9e_b.jpg);
+  background-size: cover;
+  opacity: 80%;
+  line-height: 75px;
+}
+#header2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background: url(https://p2.piqsels.com/preview/1007/973/246/magazines-lock-chain-secured.jpg);
+  background-size: cover;
+  opacity: 80%;
+  line-height: 75px;
+
+
+}
+
+#header3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background: url(https://p2.piqsels.com/preview/490/113/77/digital-marketing-emarketing-the-positioning-of-the-seo.jpg);
+  background-size: cover;
+  opacity: 80%;
+  line-height: 75px;
+
+}
+
+#header4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background: url(https://www.beehiveacademy.org/wp-content/uploads/2021/03/62e2840b-a60b-41b4-9616-940990eeb246.jpg);
+  background-size: cover;
+  opacity: 80%;
+  line-height: 75px;
+
+}
+
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type: none;
+  background-color: #38369A;
+  overflow: hidden;
+  padding-top: 1em;
+}
+
+li{
+  display: inline;
+  font-family: Cairo;
+  padding: 1em;
+  font-size: 20px;
+}
+
+li a{
+  text-decoration: none;
+  background-color: #38369A;
+}
+
+li a:hover{
+  background-color: #6A68CA;
+  color: #EFE9F4;
+  padding: 1em;
+}
+
+/* STYLE BUTTONS */
+
+button{
+  color: #38369A;
+  background-color: #EFE9F4;
+  border-style: none;
+  padding: 1em;
+  margin-left: 1em;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: #38369A; /* Green */
+  color:#EFE9F4;
+}
+
+
+/* STYLE LINKS */
+
+a{
+  color: #EFE9F4;
+}
+
+/*fact generator*/
+
+.factGenerator{
+  background-color: #6A68CA;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1em;
+  color: #EFE9F4;
+  font-size: 20px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+  li{
+    font-size: 16px;
+  }
+
+  h1{
+    font-size: 50px;
+  }
+
+  .logo img{
+    max-width: 70%;
+  }
+}
